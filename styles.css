@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light mode background color */
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    text-align: center;
+    padding: 100px;
+}
+
+h1 {
+    color: #333; /* Light mode text color */
+}
+
+button {
+    background-color: #1d1d1d; /* Light mode button background color */
+    color: #fff; /* Light mode button text color */
+    padding: 10px 20px;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+}
+
+body.dark-mode h1 {
+    color: #fff; /* Dark mode header text color */
+}
+
+body.dark-mode button {
+    background-color: #ffffff; /* Dark mode button background color */
+    color: #333; /* Dark mode button text color */
+}
